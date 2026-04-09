@@ -256,11 +256,14 @@
 
 <!-- ===== PORTFOLIO SECTION ===== -->
 <section class="work" id="work">
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Portofolio Projects <span>Saya</span></h2>
+
+    <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Portofolio Projects <span>Saya</span>
+    </h2>
 
     <div class="box-container">
 
-        <!-- Jatidiri -->
+        <!-- Jatidiri Website -->
         <div class="box tilt">
             <img draggable="false" src="./assets/images/projects/jatidiriweb.png" alt="Jatidiri Website" />
             <div class="content">
@@ -268,12 +271,11 @@
                     <h3>Jatidiri Website</h3>
                 </div>
                 <div class="desc">
-                    <p>Mengembangkan sistem tes <b>Rothwell-Miller Interest Blank (RMIB)</b> berbasis web yang dilengkapi dengan logika psikologi dan mekanisme penilaian sesuai standar tim psikolog.
-                    Bertanggung jawab dalam perancangan database serta pembangunan REST API menggunakan <b>Laravel</b>.</p>
-                    <p>Melakukan optimasi performa sistem melalui perbaikan query (ORM & raw SQL) sehingga respons API menjadi lebih cepat, stabil, dan konsisten.
-                    Selain itu, mengembangkan dashboard CMS untuk pengelolaan data serta menyusun dokumentasi sistem secara lengkap.</p>
+                    <p>Sistem tes <b>RMIB</b> berbasis web dengan logika psikologi sesuai standar psikolog.
+                    Membangun REST API dengan <b>Laravel</b>, optimasi query (ORM & raw SQL),
+                    dashboard CMS, dan dokumentasi sistem.</p>
                     <div class="btns">
-                        <a href="https://jatidiri.app/" class="btn" target="_blank">
+                        <a href="https://jatidiri.app/" class="btn" target="_blank" rel="noopener noreferrer">
                             <i class="fas fa-eye"></i> Lihat
                         </a>
                     </div>
@@ -281,11 +283,7 @@
             </div>
         </div>
 
-    </div>
-
-    <div class="box-container">
-
-        <!-- Serba Events -->
+        <!-- Serba Events Website -->
         <div class="box tilt">
             <img draggable="false" src="./assets/images/serbae.png" alt="Serba Events Website" />
             <div class="content">
@@ -293,11 +291,11 @@
                     <h3>Serba Events Website</h3>
                 </div>
                 <div class="desc">
-                    <p>Proyek pengembangan website ticketing event di Indonesia yang dikerjakan secara tim dengan fokus pada skalabilitas dan keamanan sistem.</p>
-                    <p>Mengembangkan backend API menggunakan <b>Golang</b> dan <b>MongoDB</b> untuk pengelolaan data (CRUD & filtering), serta mengimplementasikan autentikasi <b>PASETO v4</b> untuk meningkatkan keamanan akses pengguna.</p>
-                    <p>Mengintegrasikan <b>Google Cloud Functions</b> untuk pemrosesan API yang scalable dan efisien, serta membangun antarmuka web responsif yang optimal di berbagai perangkat (mobile & desktop).</p>
+                    <p>Platform ticketing event berbasis tim. Backend API dengan <b>Golang</b> &
+                    <b>MongoDB</b>, autentikasi <b>PASETO v4</b>, integrasi
+                    <b>Google Cloud Functions</b>, dan antarmuka responsif mobile & desktop.</p>
                     <div class="btns">
-                        <a href="https://github.com/serbaevents" class="btn" target="_blank">
+                        <a href="https://github.com/serbaevents" class="btn" target="_blank" rel="noopener noreferrer">
                             <i class="fas fa-eye"></i> Lihat
                         </a>
                     </div>
@@ -305,11 +303,27 @@
             </div>
         </div>
 
-    </div>
+        <!-- Model Psikologi -->
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/CONFUMATRIXVALIDSVM.jpeg" alt="Model Psikologi SVM" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Model Psikologi</h3>
+                </div>
+                <div class="desc">
+                    <p>Prediksi kesehatan mental berbasis web (SVM + TF-IDF) dengan metode CRISP-DM,
+                    akurasi ~73%. Dua tahap: klasifikasi kondisi mental dari teks narasi,
+                    lalu validasi dengan 27 indikator gejala biner.</p>
+                    <div class="btns">
+                        <a href="https://colab.research.google.com/drive/1bOkB92g1E3tlI-LgvTo06PTNS4V499Xm#scrollTo=Lp-jE6yUn254" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-eye"></i> Lihat
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="box-container">
-
-        <!-- Nakes -->
+        <!-- Nakes Website -->
         <div class="box tilt">
             <img draggable="false" src="./assets/images/projects/nakes.jpeg" alt="Nakes Website" />
             <div class="content">
@@ -317,12 +331,11 @@
                     <h3>Nakes Website</h3>
                 </div>
                 <div class="desc">
-                    <p>Mengembangkan aplikasi web untuk pendataan kesehatan ibu dan bayi dengan sistem multi-role (admin, tenaga kesehatan, dan ibu) menggunakan <b>Laravel</b>, <b>MySQL</b>, serta <b>Blade Template</b> dan <b>Tailwind CSS</b>.</p>
-                    <p>Merancang dashboard terpisah untuk setiap role guna meningkatkan kejelasan alur penggunaan. Sistem mencakup pengelolaan data ibu dan bayi, pencatatan riwayat medis (kehamilan, persalinan, pemeriksaan), serta kuesioner keterampilan ibu dengan perhitungan skor otomatis.</p>
-                    <p>Mengembangkan fitur monitoring bayi seperti biodata, hasil pemeriksaan, pertumbuhan, perkembangan (KPSP), serta data readmisi dan riwayat perawatan. Selain itu, mengimplementasikan fitur pencarian dan filter data.</p>
-                    <p>Dari sisi teknis, dilakukan optimasi query dan struktur backend untuk memastikan aplikasi tetap responsif, stabil, dan efisien dalam pengolahan data.</p>
+                    <p>Aplikasi web multi-role untuk pendataan kesehatan ibu dan bayi menggunakan
+                    <b>Laravel</b>, <b>MySQL</b>, dan <b>Tailwind CSS</b>. Fitur mencakup
+                    riwayat medis, kuesioner KPSP, monitoring pertumbuhan, dan data readmisi.</p>
                     <div class="btns">
-                        <a href="https://jatidiri.app/" class="btn" target="_blank">
+                        <a href="https://github.com/nizarabdulkholiq" class="btn" target="_blank" rel="noopener noreferrer">
                             <i class="fas fa-eye"></i> Lihat
                         </a>
                     </div>
